@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e235c215528434f8b699b9245dd235, type: 3}
+  m_Name: ShieldBehavior
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  rayCastHitLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  instantaneousTravel: 1
+  destroyOnHit: 1
+  upTime: 5
+  speed: 2
+  useGravity: 0
+  arcTrajectory: 0
+  damage: 0
+  manaCost: 2
+  spellName: Shield
+  spellDesc: Form a barrier to block incoming attacks.
+  spellSymbol: {fileID: 2100000, guid: f538a4365b6e43a4182bb0cb3ff02b8b, type: 2}
+  createParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  updateParticles: {fileID: 7087589043233120312, guid: cf0e7b423059e4945bd261b18bc35ad3,
+    type: 3}
+  destroyParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  castSound: {fileID: 8300000, guid: 698592c61b5e1a544a59ff7855cf9683, type: 3}
+  landSound: {fileID: 0}
+  shieldPrefab: {fileID: 3713329787793720319, guid: e559f31fd96f99441a8689fe96e5323d,
+    type: 3}

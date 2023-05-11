@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f12d202dfa80fc4da95f104c5c8be68, type: 3}
+  m_Name: PoisonBehavior
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  rayCastHitLayer:
+    serializedVersion: 2
+    m_Bits: 129
+  instantaneousTravel: 1
+  destroyOnHit: 0
+  upTime: 7
+  speed: 0
+  useGravity: 0
+  arcTrajectory: 1
+  damage: 1
+  manaCost: 5
+  spellName: Poison
+  spellDesc: Summon a pool of poison that deals 1 damage per second.
+  spellSymbol: {fileID: 2100000, guid: 1292a3c5a3d55f84098aff71e7573332, type: 2}
+  createParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  updateParticles: {fileID: 7087589043233120312, guid: a0fdd9f9447ddef4ca5ad852f0fba132,
+    type: 3}
+  destroyParticles: {fileID: 7087589043233120312, guid: 15b88d55e4cf4c544ac52bbd4de66db4,
+    type: 3}
+  castSound: {fileID: 8300000, guid: e09f56b118ae4304a83d6e57f9ab7a64, type: 3}
+  landSound: {fileID: 8300000, guid: 0dbb2476f9ccbb54399d69e084cb9f97, type: 3}

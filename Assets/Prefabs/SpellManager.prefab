@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5509511989230964625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5509511989230964627}
+  - component: {fileID: 5509511989230964624}
+  - component: {fileID: 1406580098770854146}
+  m_Layer: 0
+  m_Name: SpellManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5509511989230964627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5509511989230964625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5509511989230964624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5509511989230964625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c938c12a69243459f5127fe472d7e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spellBase: {fileID: 8729905168182617853, guid: 3770d2c7610e9204d8c193a6c41ddd1b,
+    type: 3}
+  spellTypes:
+  - {fileID: 11400000, guid: ce09da06037ca8140beeee18f57abe55, type: 2}
+  - {fileID: 11400000, guid: a88be53ac6ead31418fffada8dc8b8f2, type: 2}
+  - {fileID: 11400000, guid: aba1c648326a4a7479a79078fe53e4ea, type: 2}
+  - {fileID: 11400000, guid: 9305072b8cb56fe4492075bc42728780, type: 2}
+  - {fileID: 11400000, guid: 0ab7d6cda781c4d4b9aeef578888041b, type: 2}
+  - {fileID: 11400000, guid: 7a684e83c1bcaae4da36ac89380c1c17, type: 2}
+  - {fileID: 11400000, guid: 063ecc27bb6997b4e8f0439789a9f805, type: 2}
+  spellDeck: []
+--- !u!114 &1406580098770854146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5509511989230964625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1

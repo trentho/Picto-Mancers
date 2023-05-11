@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a346d2a326218f447bbc522d51e82392, type: 3}
+  m_Name: CounterspellBehavior
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  rayCastHitLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  instantaneousTravel: 1
+  destroyOnHit: 1
+  upTime: 1
+  speed: 0
+  useGravity: 0
+  arcTrajectory: 0
+  damage: 0
+  manaCost: 6
+  spellName: Counter
+  spellDesc: Catch an incoming spell and ready it for yourself.
+  spellSymbol: {fileID: 2100000, guid: c14139fe946efaf499782fd647814218, type: 2}
+  createParticles: {fileID: 7087589043233120312, guid: 62bfc1cf1111b8e43ba96fc5c5b38ac9,
+    type: 3}
+  updateParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  destroyParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  castSound: {fileID: 8300000, guid: 5a4ec59d6b2e34e4f91d1954c76ba740, type: 3}
+  landSound: {fileID: 0}
+  spellLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  counterSound: {fileID: 8300000, guid: fff3eb9196ca0d14c9b8596e45a9da4f, type: 3}

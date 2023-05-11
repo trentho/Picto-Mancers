@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87bccdac3ed58b84aa636e4315fbb55a, type: 3}
+  m_Name: BoomerangBehavior
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  upTime: 4
+  speed: 10
+  useGravity: 0
+  damage: 2
+  manaCost: 0
+  spellName: Boomerang
+  spellDesc: Creates a projectile that eventually returns to the caster.
+  spellSymbol: {fileID: 0}
+  createParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  updateParticles: {fileID: 7087589043233120312, guid: 086c476c5732f0f4a8d51e8cb1cc3c7f,
+    type: 3}
+  destroyParticles: {fileID: 7087589043233120312, guid: 3381c414e7ec48e4ca960b317df61431,
+    type: 3}
+  castSound: {fileID: 8300000, guid: 03da0e8b9a646814b90c9141366d3ab5, type: 3}
+  landSound: {fileID: 8300000, guid: 2ae423d706171ce4eba91a2caeb99c88, type: 3}

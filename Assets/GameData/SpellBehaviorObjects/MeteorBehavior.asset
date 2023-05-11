@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799fff11e534e8740866c55d59b96c76, type: 3}
+  m_Name: MeteorBehavior
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  rayCastHitLayer:
+    serializedVersion: 2
+    m_Bits: 129
+  instantaneousTravel: 1
+  destroyOnHit: 1
+  upTime: 5
+  speed: 15
+  useGravity: 0
+  arcTrajectory: 1
+  damage: 3
+  manaCost: 4
+  spellName: Meteor
+  spellDesc: Summon a 3 damage meteor to fall at the indicated point.
+  spellSymbol: {fileID: 2100000, guid: 167c3fcb8d8631040bbb02755fe55ba5, type: 2}
+  createParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  updateParticles: {fileID: 7087589043233120312, guid: 02a30434afc0f24448fe55c947a21e9f,
+    type: 3}
+  destroyParticles: {fileID: 7087589043233120312, guid: d922841f91949f34a86a9ee3ff5ec605,
+    type: 3}
+  castSound: {fileID: 8300000, guid: 286fd69781548e54088f7e80700a7b37, type: 3}
+  landSound: {fileID: 8300000, guid: 2b038b836a99be14691492f0fd3607ee, type: 3}

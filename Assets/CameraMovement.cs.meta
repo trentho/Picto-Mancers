@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/CameraMovement.cs.meta
+guid: 6de77f57e130440cea5439636006532e
+========
+guid: 899b61a10a63148e9ba787e7d74ade7f
+>>>>>>>> remotes/origin/main:Assets/DebugTools/SpellCastDebug.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72109b0fb28350544ab1f1998ff184df, type: 3}
+  m_Name: SmokeBehavior
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  rayCastHitLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  instantaneousTravel: 0
+  destroyOnHit: 1
+  upTime: 5
+  speed: 10
+  useGravity: 1
+  arcTrajectory: 1
+  damage: 0
+  manaCost: 3
+  spellName: Smoke
+  spellDesc: Create a cloud of smoke to obscure the field.
+  spellSymbol: {fileID: 2100000, guid: 8a134ec7a42c00549aa45327927cb834, type: 2}
+  createParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  updateParticles: {fileID: 7087589043233120312, guid: 086c476c5732f0f4a8d51e8cb1cc3c7f,
+    type: 3}
+  destroyParticles: {fileID: 7087589043233120312, guid: d7c85b5675e3ee64596a927d8665f1e3,
+    type: 3}
+  castSound: {fileID: 8300000, guid: f80c40e906bb199458f064f6a427a761, type: 3}
+  landSound: {fileID: 8300000, guid: 854529e30666d3e46af56d18d9851cae, type: 3}

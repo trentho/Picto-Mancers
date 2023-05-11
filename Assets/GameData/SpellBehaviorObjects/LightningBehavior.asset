@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49760ae9e02b34042934cad4b62ada92, type: 3}
+  m_Name: LightningBehavior
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  rayCastHitLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  instantaneousTravel: 0
+  destroyOnHit: 1
+  upTime: 5
+  speed: 12
+  useGravity: 0
+  arcTrajectory: 0
+  damage: 1
+  manaCost: 1
+  spellName: Lightning
+  spellDesc: A bolt of lightning that creates a 1 damage explosion.
+  spellSymbol: {fileID: 2100000, guid: c4f4b333c0e9834488ac5d67a8018821, type: 2}
+  createParticles: {fileID: 7087589043233120312, guid: 205a5a7b8a1280545a59fba3e1601c79,
+    type: 3}
+  updateParticles: {fileID: 7087589043233120312, guid: c5cd27f3d8f071e47b8ead30919cb056,
+    type: 3}
+  destroyParticles: {fileID: 7087589043233120312, guid: b10c470eadb179341977bbb5a72a0dc6,
+    type: 3}
+  castSound: {fileID: 8300000, guid: db1ba8e52ae8c1b4e8e34fa7e9955743, type: 3}
+  landSound: {fileID: 8300000, guid: 3b20816836d76e540a78647d70c376f2, type: 3}
+  AOEPrefab: {fileID: 6204510408365319305, guid: ceb618541f5b5004a9e5880e6ee2fa21,
+    type: 3}

@@ -1,0 +1,7 @@
+__pycache__/
+.ipynb_checkpoints/
+data/
+training_checkpoints/
+weights/
+models/
+logs/
